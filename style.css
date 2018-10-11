@@ -1,0 +1,17 @@
+
+ header{
+  max-width: 900px;
+  margin: auto;
+	margin-top: 25px;
+}
+
+#sub{
+	padding: 20px;
+}
+
+main{
+	margin: auto;
+	width: 60%;
+	border: 3px solid #0a3355;
+	padding: 10px;
+	 }

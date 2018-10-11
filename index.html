@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="key.js"></script>
+		  <!-- <script src="polyfills.js"></script> -->
+		<script type="text/javascript" src="papaparse.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+		<title>Kustomer Uploader</title>
+	</head>
+	<body>
+		<header>
+			<img src="https://subta.com/wp-content/uploads/2018/06/kustomer-logo.png">
+		</header>
+		<div align="center" id="sub"><h1 class="ui header">Welcome To The Kustomer CSV Uploader</h1></div>
+		<main>
+			<div class="ui placeholder segment">
+  <div class="ui two column very relaxed stackable grid">
+    <div align="center" class="column">
+			<p><i class="cloud upload icon"></i>Your Customers to the Kustomer Cloud</p>
+			<input class="ui icon button" type="file" id="myFile">
+
+
+    </div>
+    <div align="center" class="middle aligned column">
+      <button class="ui big primary button" onclick="parsing()"><i class="upload icon"></i> Upload</button>
+    </div>
+  </div>
+  <div class="ui vertical divider">
+    THEN
+  </div>
+</div>
+<p align="center">After you select your file and press upload, open your the browser console to see your status.</p>
+		</main>
+	</body>
+</html>
